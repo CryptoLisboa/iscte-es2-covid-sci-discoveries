@@ -30,8 +30,8 @@ public class App
 		if(withLogging)
 			System.out.println("INIT");
 		if (wordpressCGI) {
-			System.out.println(cgi_lib.Header());
-			System.out.println(cgi_lib.HtmlTop("Covid Scientific Discoveries Repository"));
+//			System.out.println(cgi_lib.Header());
+//			System.out.println(cgi_lib.HtmlTop("Covid Scientific Discoveries Repository"));
 		}
 		final File folder = new File(PDF_DIR_PATH);
 		if(withLogging)
@@ -48,7 +48,7 @@ public class App
 		if(withLogging)
 			System.out.println("Finished iterating on folder: " + PDF_DIR_PATH);
 		if (wordpressCGI) {
-			System.out.println(cgi_lib.HtmlBot());
+//			System.out.println(cgi_lib.HtmlBot());
 		}
 		else {
 			File f = new File("CovidCriteria.html");

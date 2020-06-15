@@ -1,5 +1,5 @@
 {
 	"OptimizeIOWithLocalResources": true,
-	"WithLogging": true,
-	"WordpressCGI": false
+	"WithLogging": false,
+	"WordpressCGI": true
 }

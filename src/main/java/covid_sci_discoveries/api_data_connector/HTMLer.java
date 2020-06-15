@@ -62,6 +62,7 @@ class HTMLer {
 				}
 				File filePDF = new File(PDF_DIR_PATH);
 				link = filePDF.toURI().toString()+fileName;
+				link = link.replace("/var/www/html", "");
 				if (optimizeIOWithLocalResources) {
 					FileSystemStorage.storeDataToResources(fileName, title, journal, publicationYear, authorsNames, link);
 				}
