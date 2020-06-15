@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
 
+#Storage file
+storage.json
+
+#HTML file
+CovidCriteria.html
+
 # Log file
 *.log
 

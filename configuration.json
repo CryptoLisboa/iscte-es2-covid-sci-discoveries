@@ -1,0 +1,5 @@
+{
+	"OptimizeIOWithLocalResources": true,
+	"WithLogging": true,
+	"WordpressCGI": false
+}
